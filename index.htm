@@ -5,44 +5,170 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Sudanese Market | Welcome </title>
-    <link rel="stylesheet" href="main.min.css">
+    <link rel="stylesheet" href="sassFiles/main.min.css">
 </head>
 
 <body>
     <header class="header" id="main">
         <ul class="header__menu">
-            <li class="content"><a href="#" class="link">Main</a></li>
-            <li class="content"><a href="#" class="link">About</a></li>
-            <li class="content"><a href="#" class="link">backup</a></li>
-
-            <li class="content__btn"><button id="login" class="btn"><a href="#">Log in</a></button></li>
-            <li class="content__btn"><button id="subscribe" class="btn"><a href="#">Subscribe </a></button></li>
-        </ul>
-
-        <ul class="header__cats">
-            <li class="content"><a href="" class="cat">cars</a></li>
-            <li class="content"><a href="" class="cat">houses</a></li>
-            <li class="content"><a href="" class="cat">Elictronics</a></li>
-            <li class="content"><a href="" class="cat">phones</a></li>
-            <li class="content"><a href="" class="cat">Laptops</a></li>
-            <li class="content"><a href="" class="cat">PCs</a></li>
-            <li class="content"><a href="" class="cat">hotels</a></li>
+            <li class="content"><a href="index.html" class="link">الرئيسية</a></li>
+            
+            <li class="content"><a href="templetes/categories.html" class="link">عروضنا</a></li>
+            
+            <li class="content"><a href="templetes/contactUs.html" class="link">الدعم</a></li>
+            
+            <li class="content"><a href="templetes/cart.html" class="link">السلة</a></li>
+            
+            <li class="content"><a href="#" class="link">عروض خاصة</a></li>
+            
+            <li class="content__btn">
+                <button id="login" class="btn">
+                    <a href="templetes/login.html">تسجيل الدخول</a>
+                </button>
+            </li>
+            
+            <li class="content__btn">
+                <button id="register" class="btn">
+                    <a href="templetes/register.html">إشترك الآن</a>
+                </button>
+            </li>
         </ul>
 
         <div class="headding" id="main">
             <h1 class="headding__primary">
-                sudanese elictronic market
+                السوق السوداني الإلكتروني
             </h1>
             <p class="headding__secondary">
-                A<span class="headding__secondary__p">ll</span> you need in one place<span
+                ك<span class="headding__secondary__p">ل</span> الفي راسك بتلقا <span
                     class="headding__secondary__emog">😎</span>
             </p>
             <div class="btn__container">
-                <button class="btn headding__btn" id="main__btn"><a href="#">Go shopping &rarr; </a></button>
+                <button class="btn headding__btn" id="main__btn"><a href="templetes/register.html">تسوق الآن
+                        🤩</a></button>
+            </div>
+        </div>
+        <div class="logo">
+            <div class="img">
+                <img src="static/logo2.png" alt="logo">
             </div>
         </div>
     </header>
     <main>
+
+        <div class="container">
+            <h1 class="page-title">منتجاتنا المميزة</h1>
+            <div class="products-grid">
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="electronics.jpg" alt="اسم المنتج الأول">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">أدوات الكترونية</h3>
+                        <p class="product-description">جودة عالية وكفاءة في الإستخدام واطول ضمان لمدة عاااااام كامل .</p>
+                        <div class="product-price">
+                            <span class="old-price">2500 ج س </span>
+                            <span class="current-price">2000 ج س </span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn add-to-cart">أضف للسلة</button>
+                            <button class="btn buy-now">اشترِ الآن</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="sports.jpg" alt="اسم المنتج الثاني">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">أدوات رياضية</h3>
+                        <p class="product-description">قوة ومتانة وراحة في اللعب .</p>
+                        <div class="product-price">
+                            <span class="old-price">300 ج س </span>
+                            <span class="current-price">249 ج س </span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn add-to-cart">أضف للسلة</button>
+                            <button class="btn buy-now">اشترِ الآن</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="toys.jpg" alt="اسم المنتج الثالث">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">ألعاب أطفال</h3>
+                        <p class="product-description">تتبع اللياقة البدنية، إشعارات ذكية، وتصميم رياضي.</p>
+                        <div class="product-price">
+                            <span class="old-price">800 ج س </span>
+                            <span class="current-price">699 ج س </span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn add-to-cart">أضف للسلة</button>
+                            <button class="btn buy-now">اشترِ الآن</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="product-image-4.jpg" alt="اسم المنتج الرابع">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">كمبيوتر محمول</h3>
+                        <p class="product-description">قوة وأداء لا مثيل لهما للمحترفين.</p>
+                        <div class="product-price">
+                            <span class="old-price">5000 ج س </span>
+                            <span class="current-price">4500 ج س </span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn add-to-cart">أضف للسلة</button>
+                            <button class="btn buy-now">اشترِ الآن</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="product-image-5.jpg" alt="اسم المنتج الخامس">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">كاميرا احترافية</h3>
+                        <p class="product-description">التقط أجمل اللحظات بجودة عالية.</p>
+                        <div class="product-price">
+                            <span class="old-price">3500 ج س </span>
+                            <span class="current-price">3200 ج س </span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn add-to-cart">أضف للسلة</button>
+                            <button class="btn buy-now">اشترِ الآن</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-card">
+                    <div class="product-image">
+                        <img src="product-image-6.jpg" alt="اسم المنتج السادس">
+                    </div>
+                    <div class="product-details">
+                        <h3 class="product-name">كرسي ألعاب مريح</h3>
+                        <p class="product-description">تجربة لعب لا مثيل لها مع راحة تامة.</p>
+                        <div class="product-price">
+                            <span class="old-price">1200 ج س </span>
+                            <span class="current-price">999 ج س </span>
+                        </div>
+                        <div class="product-actions">
+                            <button class="btn add-to-cart">أضف للسلة</button>
+                            <button class="btn buy-now">اشترِ الآن</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
 
     </main>
     <footer>
